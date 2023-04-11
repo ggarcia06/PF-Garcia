@@ -68,6 +68,11 @@ main {
     padding: 10px;
 }
 
+.product-tittle p{
+    display: inline-block;
+    text-align: center;
+}
+
 .cards-product {
     display: flex;
     flex-wrap: wrap;
