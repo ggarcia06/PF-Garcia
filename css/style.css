@@ -134,7 +134,9 @@ main {
     width: 100%;
     object-fit: cover;
 }
-
+.ubicacion__datos ul{
+    padding-left: 0;
+}
 /*----------------FOOTER------------------*/
 footer {
     background-color: rgb(255, 132, 0);
