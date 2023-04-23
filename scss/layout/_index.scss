@@ -1,0 +1,98 @@
+main {
+    margin-top: 80px;
+    padding-bottom: 0;
+
+    /*seccion cards*/
+    .cards-in {
+        margin-top: 20px;
+        @include flex(column, space-around, center, wrap);
+        gap: 5px;
+        z-index: 2;
+
+        .card-in {
+            background-color: $secondcolor;
+            @include card-prop;
+            transition: 0.1s;
+            &:hover {
+                font-weight: 600;
+                background-color: rgb(248, 174, 13);
+            }
+        }
+    }
+
+    /*seccion cardsproduct*/
+    .product-tittle {
+        padding: 15px 10px;
+        text-align: center;
+
+        h1 {
+            padding: 10px;
+        }
+
+        h2 {
+            display: inline-block;
+            text-align: center;
+        }
+    }
+
+    .cards-product {
+        @include flex(column, space-around, center, wrap);
+        gap: 15px;
+
+        .card-product {
+            @include card-prop;
+            border: solid 2px #ccc7c3;
+            img {
+                @include img-height(150px,100%,100%,cover);
+            }
+        }
+    }
+
+    /*seccion ubicacion*/
+    .ubic {
+        margin-top: 25px;
+        padding: 15px;
+        text-align: center;
+        background-color: rgb(246, 241, 233);
+
+        h3 {
+            color: $maincolor;
+            padding: 20px;
+
+        }
+
+        .ubicacion {
+            text-align: center;
+
+            h4 {
+                padding: 15px;
+                color: $maincolor;
+            }
+
+            &__datos ul {
+                padding-left: 0;
+            }
+
+            &__imagen {
+                margin-top: 25px;
+
+                h4 {
+                    text-align: center;
+                    padding: 15px;
+                    color: $maincolor;
+                    font-weight: 500;
+                }
+
+                img {
+                    @include img-height(350px,100%,100%,cover);
+                    transition: 0.3s;
+
+                    &:hover {
+                        filter: saturate(200%);
+                    }
+                }
+
+            }
+        }
+    }
+}

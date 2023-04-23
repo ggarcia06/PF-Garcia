@@ -1,0 +1,24 @@
+/*----------------------MANTENIMENTO------------------------*/
+.mant-info {
+    padding: 50px 30px;
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+        padding-top: 25px;
+    }
+}
+
+.card {
+    background-color: $lightgray;
+    .card-body{
+        .card-link{
+            background-color: $darkgray;
+            color: antiquewhite;
+            padding: 8px 20px;
+            border-radius: 4px;
+            ;
+        }
+    }
+}

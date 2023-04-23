@@ -1,0 +1,19 @@
+/*-------------------------ABOUT----------------------------*/
+
+.flyer {
+    @include img-height (175px,450px,100%,cover);
+}
+
+.container {
+    padding-bottom: 50px;
+    h1 {
+        padding: 50px 0 20px 0;
+        text-align: center;
+    }
+    p {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+
