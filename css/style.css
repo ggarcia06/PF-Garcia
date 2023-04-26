@@ -224,7 +224,7 @@ main .ubic .ubicacion__imagen img:hover {
   padding: 30px;
 }
 .product-tittle p {
-  padding-top: 20px;
+  padding: 20px;
   text-align: justify;
 }
 
@@ -457,6 +457,9 @@ main .ubic .ubicacion__imagen img:hover {
   }
   main .product-tittle {
     font-size: 20px;
+  }
+  main .product-tittle p {
+    text-align: center;
   }
   main .cards-product {
     display: flex;
